@@ -1,5 +1,33 @@
+
 body {
   width: 100%;
   height: 100%;
-  margin: 0;
+ /* margin: 0;*/
+}
+
+header,
+ #featured-property, #featured-property figure, #featured-property p{
+  width:900px;
+  margin:auto;
+}
+header h1{
+  width:400px;
+  margin:auto;
+}
+header nav{
+  width:600px;
+  margin:auto;
+}
+nav a {
+  padding:10px;
+}
+
+figcaption {
+  font-size: small;
+}
+
+#details div {
+  float:left;
+  width:25%;
+  background-color: red;
 }
